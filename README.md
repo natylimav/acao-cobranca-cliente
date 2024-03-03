@@ -1,5 +1,5 @@
 <h3 align="center">
- Projeto - Açao de Cobrança, Case Itau.
+ Projeto - Ação de Cobrança, Case Itau.
 </h3>
 
 
