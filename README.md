@@ -1,5 +1,5 @@
 <h3 align="center">
-  Como implementar um consumer e producer de um AWS SQS com Java
+ Projeto - Açao de Cobrança, Case Itau.
 </h3>
 
 <p align="center">
@@ -10,8 +10,6 @@
 
 </p>
 
-Para um maior entendimento do código deste repositório, [assista nosso vídeo no Youtube, clique aqui.](https://www.youtube.com/watch?v=56_F59cIT8M)
-
 ## :rocket: Tecnologias utilizadas
 
 * Java 21
@@ -21,8 +19,8 @@ Para um maior entendimento do código deste repositório, [assista nosso vídeo 
 * SQS (Simple Queue Service)
 * Localstack
 
-:mag: Baixe o projeto e teste você mesmo na prática.
+Referências utilizadas:
+https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
+https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#starter-dependencies
 
-[Conheça mais sobre o nosso trabalho 😀](https://www.instagram.com/buildrun.tech/)
 
-Developed by Build & Run
