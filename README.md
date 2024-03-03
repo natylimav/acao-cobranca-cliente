@@ -1,16 +1,7 @@
 <h3 align="center">
-  Como implementar um consumer e producer de um AWS SQS com Java
+ Projeto - Ação de Cobrança, Case Itau.
 </h3>
 
-<p align="center">
-
-  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-%2304D361">
-  <img alt="Language: Java" src="https://img.shields.io/badge/language-java-green">
-  <img alt="Version: 1.0" src="https://img.shields.io/badge/version-1.0-yellowgreen">
-
-</p>
-
-Para um maior entendimento do código deste repositório, [assista nosso vídeo no Youtube, clique aqui.](https://www.youtube.com/watch?v=56_F59cIT8M)
 
 ## :rocket: Tecnologias utilizadas
 
@@ -21,8 +12,12 @@ Para um maior entendimento do código deste repositório, [assista nosso vídeo 
 * SQS (Simple Queue Service)
 * Localstack
 
-:mag: Baixe o projeto e teste você mesmo na prática.
+Referências utilizadas:
+https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
+https://docs.awspring.io/spring-cloud-aws/docs/3.1.0/reference/html/index.html#starter-dependencies
 
-[Conheça mais sobre o nosso trabalho 😀](https://www.instagram.com/buildrun.tech/)
 
-Developed by Build & Run
+Microserviço responsável por fazer pulling em uma fila SQS, quando houver mensagem, deve dar inicio ao processamento das ações de cobrança ao cliente.
+-Realiza as tratativas e dependendo da quantidade de dias em atraso de pagamento do cliente, faz requisição aos microserviços de envio de 
+ notificação através de mensagem enviada a fila correspondende ao microserviço a ser solicitado.
+-Envia mensagem com dados da notificação realizada para serem persistidos na base de dados.
