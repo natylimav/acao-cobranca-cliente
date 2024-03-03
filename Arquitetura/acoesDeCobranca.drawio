@@ -1,0 +1,202 @@
+<mxfile modified="2024-03-03T20:26:10.216Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="JOzj72pmK6zDGHvZMbnm" version="23.1.8" type="device">
+  <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UEzPUAAOIrF-is8g5C7q-2" value="&lt;b&gt;Sistema de Ações de Cobrança ao Cliente&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="220" width="790" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="20" y="138.5" width="66.5" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="UEzPUAAOIrF-is8g5C7q-2" target="kNoYgr3E_eg6TFVhFi-_-2" edge="1" source="kNoYgr3E_eg6TFVhFi-_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-12" value="Microserviço&lt;br&gt;Toma Ações de Cobrança" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="216" y="136" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-13" value="mensagem com dados&lt;br&gt;de notif do cliente" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="150" y="384.5" width="66.5" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297" y="418.70000000000005" as="sourcePoint" />
+            <mxPoint x="213.5" y="418.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UEzPUAAOIrF-is8g5C7q-2" source="kNoYgr3E_eg6TFVhFi-_-15" target="3pt1hQKXPOBkk-nyvoPl-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="467" y="475.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-15" value="Microserviço&lt;br&gt;persiste os dados das notificações enviadas ao cliente" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="297" y="385.5" width="110" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-38" value="AcaoCobranca" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="3.25" y="205" width="100" height="30" as="geometry" />
+        </mxCell>
+        <object label="Fila 2" id="kNoYgr3E_eg6TFVhFi-_-18">
+          <mxCell style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+            <mxGeometry x="510" y="120" width="66.5" height="66.5" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="UEzPUAAOIrF-is8g5C7q-2" source="kNoYgr3E_eg6TFVhFi-_-12" target="kNoYgr3E_eg6TFVhFi-_-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="170.79999999999995" as="sourcePoint" />
+            <mxPoint x="801" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="171" />
+              <mxPoint x="460" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-55" value="Responsavel por realizar &lt;br&gt;tratativa do tipo de notificação que deve &lt;br&gt;ser enviada ao cliente: SMS,&amp;nbsp;&lt;div&gt;Email ou outros.Envia mensagem para&amp;nbsp;&lt;br&gt;a fila correspondende ao servico desejado e&lt;br style=&quot;border-color: var(--border-color); color: rgb(35, 47, 62);&quot;&gt;&lt;span style=&quot;color: rgb(35, 47, 62);&quot;&gt;envia mensagem pra fila &lt;br&gt;do servico responsavel por persistir os dados&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="137" y="207" width="260" height="110" as="geometry" />
+        </mxCell>
+        <object label="Fila 1" id="3pt1hQKXPOBkk-nyvoPl-3">
+          <mxCell style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+            <mxGeometry x="510" y="29.999999999999993" width="66.5" height="66.5" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Fila 4" id="3pt1hQKXPOBkk-nyvoPl-2">
+          <mxCell style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+            <mxGeometry x="510" y="320" width="66.5" height="66.5" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Fila 3" id="3pt1hQKXPOBkk-nyvoPl-1">
+          <mxCell style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+            <mxGeometry x="510" y="220" width="66.5" height="66.5" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="UEzPUAAOIrF-is8g5C7q-2" source="kNoYgr3E_eg6TFVhFi-_-12" target="3pt1hQKXPOBkk-nyvoPl-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="170.755" as="sourcePoint" />
+            <mxPoint x="503.5" y="413.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="171" />
+              <mxPoint x="460" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UEzPUAAOIrF-is8g5C7q-2" source="kNoYgr3E_eg6TFVhFi-_-12" target="3pt1hQKXPOBkk-nyvoPl-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="170.755" as="sourcePoint" />
+            <mxPoint x="510" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="171" />
+              <mxPoint x="460" y="253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" source="3pt1hQKXPOBkk-nyvoPl-21" target="3pt1hQKXPOBkk-nyvoPl-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-21" value="Microserviço&lt;br&gt;Envia Email" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="640" y="26.750000000000007" width="110" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" source="3pt1hQKXPOBkk-nyvoPl-23" target="3pt1hQKXPOBkk-nyvoPl-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-23" value="Microservico&lt;br&gt;aciona Callcenter" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="640" y="317" width="110" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" source="3pt1hQKXPOBkk-nyvoPl-25" target="3pt1hQKXPOBkk-nyvoPl-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-25" value="Microservico&lt;br&gt;Aciona servico de envio de Carta" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="640" y="217" width="110" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" source="3pt1hQKXPOBkk-nyvoPl-24" target="kNoYgr3E_eg6TFVhFi-_-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-24" value="Microserviço&lt;br&gt;Envia SMS" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="640" y="116" width="110" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-31" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="333.75" y="521.5" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-32" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="33.25" y="93" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-33" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="246" y="90" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-34" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="681" y="-18" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-35" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="640" y="18" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-36" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="UEzPUAAOIrF-is8g5C7q-2" vertex="1">
+          <mxGeometry x="331.25" y="340" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UEzPUAAOIrF-is8g5C7q-2" target="3pt1hQKXPOBkk-nyvoPl-3" edge="1" source="kNoYgr3E_eg6TFVhFi-_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="sourcePoint" />
+            <mxPoint x="510" y="163" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="170" />
+              <mxPoint x="460" y="63" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UEzPUAAOIrF-is8g5C7q-1" value="&lt;b&gt;Premissa&lt;/b&gt;:&lt;br&gt;&lt;b&gt;Sistema de monitoramento de atrasos de pagamentos&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="11.5" y="220" width="258.5" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-11" value="Serviço de monitoramento contas em atraso" style="rounded=0;whiteSpace=wrap;html=1;" parent="UEzPUAAOIrF-is8g5C7q-1" vertex="1">
+          <mxGeometry x="10" y="143" width="90.5" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-40" value="Procucer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="UEzPUAAOIrF-is8g5C7q-1" vertex="1">
+          <mxGeometry x="20.25" y="108.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-47" value="Title text" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="12" y="65.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-48" value="Subtitle text&lt;br style=&quot;font-size: 16px&quot;&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" parent="1" vertex="1">
+          <mxGeometry x="12" y="115.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-1" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="8" y="140.5" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="10" width="539" height="991" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-4" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1123" y="140.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-5" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1123" y="272.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-6" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1123" y="443.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-7" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1123" y="537.5" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-13" value="Microserviço responsavel por escutar Fila - AcaoCobranca,&amp;nbsp;&lt;span&gt;para dar inicio ao processamento das ações de cobrança ao cliente quando. &lt;br&gt;-Recebe uma mensagem contendo os dados do cliente.&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;-Realiza as tratativas referente ao tipo de notificação que o cliente deve receber baseado no quantidade de dias com saldo em atraso. Premissa: Com 5 dias de atraso sistema envia notificação por SMS.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;10 dias de atraso envia notificação por Email.&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;e assim sucessivamente..&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;-Envia mensagem com notificação para a Fila SQS correspondende para estartar o microserviço de envio de notificação desejado.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;-Envia mensagem com dados da notificação realizada para serem persistidos na base de dados.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="200" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-14" value="Fila - AcaoCobranca, recebe mensagem do servico de Monitoramento de contas em atraso." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1189" y="135.5" width="321" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-15" value="Microserviços responsáveis por enviar notificação (SMS, Email, Envio de Carta, Servico de Callcenter) para o cliente de acordo com sua função.&lt;br&gt;- Microserviço recebe mensagem da Fila e faz a requisição a Api requerida." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="430" width="435" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-16" value="Microserviço responsavel por escutar uma Fila SQS para dar inicio a persistencia dos dados de notificação enviada ao cliente na base de dados." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="538" width="415" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="kNoYgr3E_eg6TFVhFi-_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kNoYgr3E_eg6TFVhFi-_-11" target="kNoYgr3E_eg6TFVhFi-_-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="106.45000000000005" y="392.20000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pt1hQKXPOBkk-nyvoPl-37" value="Premissa: De que o Sistema de Ações de Cobrança irá receber os dados do cliente já com campo contendo quantidade de dias em atraso." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1189" y="15" width="371" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
